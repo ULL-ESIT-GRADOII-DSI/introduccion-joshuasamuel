@@ -2,7 +2,7 @@
 function calculate() {
   var result;
   var temp = original.value;
-  var regexp = /^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?(f|fa|fah|fahrenheit|c|cel|celsius)\s*$/i;
+  var regexp = /([-+]?\d+(?:\.\d*)?)([f|fa|far|farenheit|c|ce|cel|Celsius])/i;;
   
   var m = temp.match(regexp);
   
