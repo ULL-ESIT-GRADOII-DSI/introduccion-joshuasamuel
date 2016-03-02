@@ -3,7 +3,7 @@ function calculate()
 {
     var result;
     var temp = original.value;
-     var regexp =/^([-+]?\d+(?:\.\d*)?)(?:e([-+]?\d+))?(f$|fa$|far$|farenheit$|c$|ce$|cel$|Celsius$)/i;
+    var regexp =/^([-+]?\d+(?:\.\d*)?)(?:e([-+]?\d+))?(f$|fa$|far$|farenheit$|c$|ce$|cel$|Celsius$)/i;
 
     var m = temp.match(regexp); //Comprueba que la cadena de entrada sea aceptada por la Expresión Regular.
 
@@ -21,7 +21,7 @@ function calculate()
         num = num * Math.pow(10, exp);
       }
 
-      if (type == 'c' || type == 'C') // Convierte de C -> F
+      if (type == 'c' || type == 'C'|| type == 'ce'|| type == 'Ce' || type == 'cel' || type == 'Cel') // Convierte de C -> F
       {
         result = (num * 9/5)+32;
         result = result.toFixed(1)+" Farenheit"
