@@ -27,6 +27,6 @@ Observe la rama html5pattern . Añada la form y el atributo patternpara controla
 
 * [URL Campus Virtual](https://campusvirtual.ull.es/1516/course/view.php?id=144)
 
-* [URL GHPAGES](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
+* [URL GHPAGES](http://losnen.github.io/introduccion-joshuasamuel/)
 
-* [URL del repositorio](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html)
+* [URL del repositorio](https://github.com/Losnen/introduccion-joshuasamuel)
