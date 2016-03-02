@@ -3,7 +3,7 @@ function calculate()
 {
     var result;
     var temp = original.value;
-    var regexp = /([-+]?\d+(?:\.\d*)?)(?:e([-+]?\d+))?([f|fa|far|farenheit|c|ce|cel|Celsius])/i;
+     var regexp =/^([-+]?\d+(?:\.\d*)?)(?:e([-+]?\d+))?(f$|fa$|far$|farenheit$|c$|ce$|cel$|Celsius$)/i;
 
     var m = temp.match(regexp); //Comprueba que la cadena de entrada sea aceptada por la Expresión Regular.
 
